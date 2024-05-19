@@ -5,7 +5,7 @@ Complete Configuration of JWT
 ### Secret key Generator website
 https://asecuritysite.com/encryption/plain
 
-### JWT Structure
+# JWT Structure
 
 ## A JSON Web Token (JWT) typically consists of three parts separated by dots (.):
 
@@ -33,7 +33,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4
 
 ## Verification Process
 
-# When the system receives a token, it performs the following steps:
+### When the system receives a token, it performs the following steps:
 
 - Separate the Token: Split the token into its three parts (header, payload, and signature).
 
@@ -43,7 +43,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4
 
 ## In Simple Terms
 
-# Generating a Token:
+### Generating a Token:
 
 Combine user information (payload) and metadata (header).
 Use a secret key and a specific method to create a signature.
@@ -64,7 +64,7 @@ This string is the signature. It ensures the integrity and authenticity of the t
 - Integrity: Ensures the token's data hasn't been altered.
 - Authenticity: Verifies that the token was issued by a trusted source (using the secret key).
 
-# By signing the token with a secret key and verifying it on receipt, we ensure that the token is both secure and reliable.
+### By signing the token with a secret key and verifying it on receipt, we ensure that the token is both secure and reliable.
 
 
 
