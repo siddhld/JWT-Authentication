@@ -23,7 +23,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4
 - Signature: SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 
 ## How the Signature is Created
-#Combine the Header and Payload: The header and payload are base64-encoded and combined with a dot:
+### Combine the Header and Payload: The header and payload are base64-encoded and combined with a dot:
 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ
 
