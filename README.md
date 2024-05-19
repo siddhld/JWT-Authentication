@@ -5,6 +5,17 @@ Complete Configuration of JWT
 ### Secret key Generator website
 https://asecuritysite.com/encryption/plain
 
+
+# Overview of JWT Authentication Flow
+1. Client Requests Access: The client sends a login request to the server with user credentials.
+2. Server Validates Credentials: The server verifies the credentials and generates a JWT if valid.
+3. Client Receives and Stores JWT: The client receives the JWT and stores it (usually in local storage or a cookie).
+4. Client Makes Authenticated Requests: The client includes the JWT in the Authorization header for subsequent API requests.
+5. Server Verifies JWT: The server checks the JWT's validity and extracts the user's information.
+6. Server Processes the Request: If the JWT is valid, the server processes the request and sends back a response.
+
+
+
 # JWT Structure
 
 ## A JSON Web Token (JWT) typically consists of three parts separated by dots (.):
